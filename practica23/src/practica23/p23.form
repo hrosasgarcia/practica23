@@ -23,56 +23,96 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
+          <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="lbltrianguloimg" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="lblbaset" pref="48" max="32767" attributes="0"/>
-                          <Component id="txtbaset" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="txtalturat" alignment="0" min="-2" pref="48" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                              <Component id="lblalturat" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="lblareat" min="-2" max="-2" attributes="0"/>
-                          <Component id="btncalculart" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="lblcuadradoimg" min="-2" pref="79" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
-                              <Component id="lbltitulo" min="-2" pref="277" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="lblcuadradoimg" min="-2" pref="79" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTextField1" min="-2" pref="53" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                      <Component id="lbltitulo" min="-2" pref="277" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtLado" min="-2" pref="53" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblAreac" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btnCalcularc" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbltrianguloimg" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblbaset" pref="48" max="32767" attributes="0"/>
+                                  <Component id="txtBase" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtaltura" alignment="0" min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                      <Component id="lblalturat" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="lblareac" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btncalcularc" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAreat" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnCalculart" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblimgr" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtd1" min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="lbld1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="txtd2" min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="lbld2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="btnarear" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblArear" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                   </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" pref="136" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="lblradio" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="lblareac" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="txtradio" min="-2" pref="46" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="btncalcularc" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
               </Group>
-              <EmptySpace pref="233" max="32767" attributes="0"/>
+              <EmptySpace pref="347" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -85,13 +125,13 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblareac" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAreac" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btncalcularc" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextField1" min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="btnCalcularc" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtLado" min="-2" pref="32" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -111,17 +151,55 @@
                                   <Component id="lblalturat" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="lblareat" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAreat" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtbaset" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                          <Component id="txtalturat" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                          <Component id="btncalculart" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtBase" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="txtaltura" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="btnCalculart" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="161" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      <Component id="lblimgr" min="-2" pref="103" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbld1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbld2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblArear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtd1" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="txtd2" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="btnarear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="28" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel6" min="-2" pref="121" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblradio" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblareac" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtradio" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="btncalcularc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
           </Group>
       </Group>
     </DimensionLayout>
@@ -142,19 +220,22 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="txtLado">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="text" type="java.lang.String" value="lado"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btncalcularc">
+    <Component class="javax.swing.JButton" name="btnCalcularc">
       <Properties>
         <Property name="text" type="java.lang.String" value=" calcular "/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcularcActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblareac">
+    <Component class="javax.swing.JLabel" name="lblAreac">
       <Properties>
         <Property name="text" type="java.lang.String" value="area del cuadrado"/>
       </Properties>
@@ -171,23 +252,92 @@
         <Property name="text" type="java.lang.String" value="    base"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtbaset">
+    <Component class="javax.swing.JTextField" name="txtBase">
     </Component>
     <Component class="javax.swing.JLabel" name="lblalturat">
       <Properties>
         <Property name="text" type="java.lang.String" value="altura"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtalturat">
+    <Component class="javax.swing.JTextField" name="txtaltura">
     </Component>
-    <Component class="javax.swing.JButton" name="btncalculart">
+    <Component class="javax.swing.JButton" name="btnCalculart">
       <Properties>
         <Property name="text" type="java.lang.String" value="calcular"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalculartActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblareat">
+    <Component class="javax.swing.JLabel" name="lblAreat">
       <Properties>
         <Property name="text" type="java.lang.String" value="area del triangulo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimgr">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagenes/rombo.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtd1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtd2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbld1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="diagonal 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbld2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="diagonal 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnarear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnarearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblArear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="area del rombo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagenes/circulo.gif"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtradio">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblradio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="radio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btncalcularc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncalcularcActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblareac">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="area del circulo"/>
       </Properties>
     </Component>
   </SubComponents>
